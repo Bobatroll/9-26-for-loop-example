@@ -1,0 +1,40 @@
+package classexample;
+
+import java.util.*;
+
+public class classexample {
+
+	public static void main(String[] args) {
+	
+// current tuition fees = $10000
+//After how many years will it be 20000(doubled)
+//Every year it will be increased by 7%
+		int years = 0;
+		double tuition = 10000;
+		
+		
+		while(tuition <20000)
+		{
+			tuition = tuition +(tuition * 0.07);
+			years++;
+			System.out.println("After "+ years+ " years, the tuition is $ "+ tuition);
+		}
+		
+		System.out.println("After "+ years+ " years, the tuition will be doubled. ");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
